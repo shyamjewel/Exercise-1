@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <div class="row p-2">
+        <div class="col-3">
+            <img src="C:\Users\lenovo\Downloads\instagram.jpg" alt="" width="150" height="150">
+        </div>
+        <div class="col-4">
+            <!-- A grey horizontal navbar that becomes vertical on small screens -->
+            <nav class="navbar navbar-expand-sm bg-light">
+
+                <div class="container-fluid">
+                    <!-- Links -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Clients</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+        <div class="col-2">
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Login</button>
+            <!-- The Modal -->
+            <div class="modal" id="myModal" data-bs-backdrop="static">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Login Here...</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            Username
+                            <input type="text" class="form-control" placeholder="Enter Username">
+                            Password
+                            <input type="password" class="form-control" placeholder="*************">
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary">Login</button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="row">
+                <div class="col">
+                    <input type="search" class="form-control" placeholder="Seach Here">
+                </div>
+                <div class="col">
+                    <button class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Los angels.jpg" alt="Los Angeles" class="d-block w-100" height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="florida.jpg" alt="Chicago" class="d-block w-100" height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="Denver_skyline.jpg" alt="New York" class="d-block w-100" height="500">
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <img src="cartoon-little-boy-studying-vector-22369019.jpg" alt=" " class="d-block w-100" height="500">
+        </div>
+        <div class="col-6 p-3">
+            <div class="container text-primary justify-content-center" > Registration form </div>
+            Name
+            <input type="text" class="form-control" placeholder="Enter your name">
+            Email
+            <input type="text" class="form-control" placeholder="Enter your Email">
+            Password
+            <input type="password" class="form-control" placeholder="*********">
+            City
+            <input type="text" class="form-control" placeholder="Enter your city">
+            State
+            <div class="row">
+                <div class="col">
+                        <select class="form-control" id="f">
+                            <option>--Select Your State--</option>
+                            <option>TamilNadu</option>
+                            <option>Kerala</option>
+                            <option>Andhra Pradhesh</option>
+                            <option>Karnataka</option>
+                            <option>Telengana</option>
+                            <option>Goa</option>
+  
+                        </select>
+                      </div></div>
+  
+
+            <div class="row">
+                <div class="col">
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </div>
+            </div>
+
+            
+        </div>
+
+
+
+    </div>
+    <table class="table w-75 mx-auto mt-5 table-bordered table-hover text-center table-striped">
+        <thead>
+          <tr class="bg-primary text-white">
+            <th>S.No</th>
+            <th>Reg.No</th>
+            <th>Name od the participant</th>
+            <th>Collaborative activity</th>
+            <th>Collaborating Agency</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>UR16AE001</td>
+            <td>ANIT ANU JOHN</td>
+            <td>Product Design And Analysis</td>
+            <td>CADD centre</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>UR16AE011</td>
+            <td>VASANTHA KANESH M</td>
+            <td>Product Design And Analysis</td>
+            <td>CADD centre</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>UR16AE013</td>
+            <td>ABIJITH J</td>
+            <td>Product Design And Analysis</td>
+            <td>CADD centre</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>UR16AE015</td>
+            <td>JEBIN JOHN J</td>
+            <td>Product Design And Analysis</td>
+            <td>CADD centre</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>UR16AE018</td>
+            <td>JOSHI K J</td>
+            <td>Product Design And Analysis</td>
+            <td>CADD centre</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>UR16AE020</td>
+            <td>J P GOKUL</td>
+            <td>Product Design And Analysis</td>
+            <td>CADD centre</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>UR16AE021</td>
+            <td>JEROME</td>
+            <td>Product Design And Analysis</td>
+            <td>CADD centre</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>UR16AE022</td>
+            <td>AFNAN M.ARIEF</td>
+            <td>Product Design And Analysis</td>
+            <td>CADD centre</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+    
+
+
+</body>
+
+</html>
